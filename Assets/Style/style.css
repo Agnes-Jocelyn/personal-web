@@ -6,24 +6,28 @@ body {
 }
 
 
-nav {
+.nav {
     position: fixed;
     top: 0px;
     width: 100%;
     background-color: rgb(41, 45, 49);
     text-align: center;
-    padding-right: 15px;
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
     float: right;
     height:8%;
     align-items: center;
-
-
     color: white;
 }
-
+.nav a{
+    text-decoration: none;
+    color:  white;
+}
+.nav a:hover {
+    background-color:rgb(145, 145, 145);
+    color: black;
+}
 .gmbr {
     display: flex;
     align-items: center;
@@ -73,16 +77,15 @@ h2 {
     font-family:'Oswald', sans-serif;
     text-align: center;
     padding-bottom:50px ;
-    text-decoration: none;
 }
     
 span{
-    font-size: 24px;    
+    font-size: 24px; 
+    text-decoration: none;
+    color:black;
 }
 
-footer{
-    background-color: rgb(41, 45, 49);
-    color: white;
-    padding: 25px;
-    text-align: center;
+i{
+    text-decoration:none;
+    color: black;
 }
